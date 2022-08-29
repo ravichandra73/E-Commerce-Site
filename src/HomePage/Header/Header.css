@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-shopname, .header-container, .header-nav-items, .cart-items, .header-searchbar{
+    display: flex;
+}
+.header-nav-signin, .header-nav-yourshop{
+ display: flex;
+ flex-direction: column;
+}
+.header-container{
+    max-width: 100%;
+   min-height: 55px;
+    background-color: black;
+    padding-top: 10px 10px;
+}
+.header-shopname{
+    margin-top: 3px;
+    flex: 1;
+    margin-left: auto;
+}
+.header-searchbar{
+    flex: 3;
+}
+.header-nav-items{
+    margin-top: 5px;
+    justify-content: space-around;
+    flex: 1;
+}
+.searchbar{
+    height: 40px;
+    width: 90%;
+    margin-top: 7px
+}
+.searchicon{
+        background-color: orange;
+        color: black;
+        padding: 9px;
+        height: 40px;
+        margin-top: 7px;
+     
+}
+.orange{
+    color: orange;
+}
+.white{
+    color: white;
+}
+.cart-num-items{
+    margin-left: 15px;
+}
+
+
