@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.product-container{
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    margin: 15px;
+    width: 100%;
+    z-index: 1 ;
+}
+.add-to-cart{
+       border: 1px solid black;
+       background-color: orange;
+       color: white;
+       margin-left: 47.5%;
+       margin-bottom: 10px;
+
+}
+.product-image{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}

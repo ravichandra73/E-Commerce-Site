@@ -1,0 +1,20 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(194, 225, 244);
+}
+.home-image-original{
+    object-fit: contain;
+    max-height: 500px;
+    width: 100%;
+    mask-image: linear-gradient(to bottom, black , transparent);
+    z-index: -1;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    margin-top: -100px;
+}
+.home-product-first-row, .home-product-second-row{
+    display: flex;
+}
