@@ -11,14 +11,17 @@
  flex-direction: column;
 }
 .header-container{
+    padding-top: 5px;
     max-width: 100%;
-   min-height: 55px;
+   min-height: 65px;
     background-color: black;
     padding-top: 10px 10px;
 }
 .header-shopname{
+    margin-left: 30px;
     justify-content: center;
     margin-top: 3px;
+    justify-content: space-around;
     flex: 1;
 }
 .header-searchbar{
@@ -30,6 +33,7 @@
     flex: 1;
 }
 .searchbar{
+    margin-left: 35px;
     height: 40px;
     width: 90%;
     margin-top: 7px

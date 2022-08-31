@@ -22,11 +22,11 @@ const Header = () => {
         <div className='header-nav-items'>
           <div className='header-nav-signin'>
             <h5 className='white'>Hello Guest</h5>
-            <a href='#'><h2 className='white'>signIn</h2></a>
+            <h2 className='white'>signIn</h2>
           </div>
           <div className='header-nav-yourshop'>
             <h5 className='white'>Your</h5>
-            <a><h2 className='white'>Shop</h2></a>
+            <h2 className='white'>Shop</h2>
           </div>
             <NavLink to="/checkout" style={{textDecoration:"none"}}>
           <div className='cart-items'>
